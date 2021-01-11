@@ -15,11 +15,12 @@ note: This will push your code to master branch
 $ npm install -g gitteee
 ```
 
-# USAGE
+# Usage
+```sh-session
   $ gitte push -r https://github.com/Sangeetaaaa/gitte-gitcmd-automation.git  -m "Intial Commit"
 
   $ gitte push
-
+```
 
 ### DESCRIPTION
 
