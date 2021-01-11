@@ -10,35 +10,23 @@ While pushing your code to github you need to initialize git, then you probably 
 
 This all can be done using only one command
 
-$ gitte push -r https://github.com/Sangeetaaaa/gitte-gitcmd-automation.git -m "initial commit"
+$ gitte push -r https://github.com/Sangeetaaaa/Gitte.git -m "initial commit"
 
 note: This will push your code to master branch
 
 
 # Installation
 
-<!-- usage -->
 ```sh-session
 $ npm install -g gitteee
-$ gitte COMMAND
-running command...
-USAGE
-  $ gitte COMMAND
 ...
 ```
-<!-- usagestop -->
 
-### USAGE
-  $ gitte push
-
+# USAGE
   $ gitte push -r https://github.com/Sangeetaaaa/gitte-gitcmd-automation.git  -m "Intial Commit"
 
-### OPTIONS
-  -m,  commit message
+  $ gitte push
 
-  -r,  add remote
-
-  -h, --help         show CLI help
 
 ### DESCRIPTION
 
@@ -49,7 +37,7 @@ This command will initialize git, add all your files to stagging area, commit it
 
 $ gitte push 
 
-This command will add all your files to stagging area, commit it and will push to master branch
+This command will add all your files to stagging area, commit it and will push to the master branch
 
 note: This command will show err if remote was not added before.
 
