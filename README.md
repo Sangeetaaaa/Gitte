@@ -1,14 +1,8 @@
-Gitte
+Gitte - Initialize Git, Add all your files, Commit it, Add Remote and push it with just one command
 =====
 
 Just by using $ gitte push you can save a lot of your efforts while pushing your code to github
 
-How ?
-
-While pushing your code to github you need to initialize git, then you probably need to add all your files to the staging area, commit it, add remote and then only you are ready to push your code.
-
-
-This all can be done using only one command
 
 $ gitte push -r https://github.com/Sangeetaaaa/Gitte.git -m "initial commit"
 
@@ -19,7 +13,6 @@ note: This will push your code to master branch
 
 ```sh-session
 $ npm install -g gitteee
-...
 ```
 
 # USAGE
@@ -30,7 +23,7 @@ $ npm install -g gitteee
 
 ### DESCRIPTION
 
-$ gitte push -r https://github.com/Sangeetaaaa/gitte-gitcmd-automation.git  -m "Intial Commit"
+$ gitte push -r add-your-remote  -m "commit-message"
 
 This command will initialize git, add all your files to stagging area, commit it with your given message, will add remote and will push your code to master branch.  
 
