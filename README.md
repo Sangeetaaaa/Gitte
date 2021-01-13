@@ -12,7 +12,7 @@ note: This will push your code to master branch
 # Installation
 
 ```sh-session
-$ npm install -g gitteee
+$ npm install -g gitte
 ```
 
 # Usage
@@ -34,4 +34,3 @@ $ gitte push
 This command will add all your files to stagging area, commit it and will push to the master branch
 
 note: This command will show err if remote was not added before.
-

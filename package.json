@@ -1,11 +1,11 @@
 {
   "name": "gitte",
-  "version": "0.0.0",
+  "version": "1.0.2",
   "author": "Sangeeta",
   "bin": {
     "gitte": "./bin/run"
   },
-  "bugs": "https://github.com/Web Dev Projects/gitte/issues",
+  "bugs": "https://github.com/Sangeetaaaa/Gitte/issues",
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
@@ -31,9 +31,8 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/Web Dev Projects/gitte",
+  "homepage": "https://github.com/Sangeetaaaa/Gitte",
   "keywords": [
-    "oclif"
   ],
   "license": "MIT",
   "main": "src/index.js",
@@ -44,7 +43,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "Web Dev Projects/gitte",
+  "repository": "Sangeetaaaa/Gitte",
   "scripts": {
     "postpack": "rimraf oclif.manifest.json",
     "posttest": "eslint .",
